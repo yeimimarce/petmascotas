@@ -1,0 +1,39 @@
+#info{
+	background: #333;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+}
+
+#info .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-mascotas{
+	margin: 20px;
+}
+
+.info-mascotas img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #FFF;
+}
+
+@media (min-width: 480px) {
+	.info-mascotas{
+		width: 40%;
+	}
+
+
+}
+
+@media (min-width: 1024px) {
+	.info-mascotas{
+		width: auto;
+	}
+
+
+}
